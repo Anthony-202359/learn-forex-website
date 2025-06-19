@@ -74,7 +74,7 @@ export default function AdxPage() {
           <img
             src={'/assets/images/direction.jpeg'}
             alt="Average Directional Index"
-            style={{ borderRadius: 16, width: '100%', maxWidth: 500, height: 220, objectFit: 'contain' }}
+            style={{ display: 'block', margin: '0 auto 24px auto', width: '100%', maxWidth: '100%', borderRadius: 16, boxShadow: '0 2px 8px #0002' }}
           />
           <div style={{ height: 24 }} />
           <div style={{ fontSize: 18, color: '#222', lineHeight: 1.5, textAlign: 'center' }}>

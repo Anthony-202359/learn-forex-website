@@ -39,16 +39,15 @@ const sections = [
       { to: '/long-short-page', label: 'Long vs. Short' },
       { to: '/market-hours-page', label: 'Market Hours' },
       { to: '/fundamental-analysis-page', label: 'Fundamental Analysis' },
+      { to: '/risk-management', label: 'Risk Management' },
+      { to: '/trading-psychology', label: 'Psychology' },
     ],
   },
   {
     label: 'Technical Analysis',
     links: [
       { to: '/technical-analysis-intro', label: 'Intro to Technical Analysis' },
-      { to: '/technical-analysis', label: 'Indicators' },
       { to: '/support-resistance-page', label: 'Support & Resistance' },
-      { to: '/risk-management', label: 'Risk Management' },
-      { to: '/trading-psychology', label: 'Psychology' },
     ],
   },
   {

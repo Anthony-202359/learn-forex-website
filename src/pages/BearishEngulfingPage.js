@@ -71,6 +71,11 @@ export default function BearishEngulfingPage({ onBack }) {
           transition: 'opacity 1.1s 0.2s cubic-bezier(.77,0,.18,1), transform 1.1s 0.2s cubic-bezier(.77,0,.18,1)',
           ...(showMain && { opacity: 1, transform: 'translateY(0)' }),
         }}>
+          <img 
+            src="/assets/images/bearish.jpeg" 
+            alt="Bearish Engulfing Pattern" 
+            style={{ display: 'block', margin: '0 auto 24px auto', width: '100%', maxWidth: '100%', borderRadius: '16px', boxShadow: '0 2px 8px #0002' }}
+          />
           <div style={{ fontSize: 24, fontWeight: 'bold', color: 'red', marginBottom: 16 }}>
             Bearish Engulfing Pattern
           </div>

@@ -43,7 +43,7 @@ export default function PiercingLinePage({ onBack }) {
             <img
               src={'/assets/images/pline.jpeg'}
               alt="Piercing Line"
-              style={{ borderRadius: 16, width: '100%', maxWidth: 500, height: 220, objectFit: 'contain' }}
+              style={{ display: 'block', margin: '0 auto 24px auto', width: '100%', maxWidth: '100%', borderRadius: 16, boxShadow: '0 2px 8px #0002' }}
             />
             <div style={{ height: 24 }} />
             <div style={{ fontSize: 24, fontWeight: 'bold', color: 'green', textAlign: 'center' }}>
