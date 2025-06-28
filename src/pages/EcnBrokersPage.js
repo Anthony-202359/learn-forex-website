@@ -136,6 +136,57 @@ export default function EcnBrokersPage() {
           </div>
           <BulletPoint text="Beginners or casual traders who prefer simplicity and stability." fontSize={18} />
         </BrokerSection>
+        
+        <BrokerSection title="Recommended ECN Broker: Fusion Markets" icon="⚡" color="#43cea2" show={showMm}>
+          <div style={{ fontSize: 20, fontWeight: 500, marginBottom: 18 }}>
+            Why Choose Fusion Markets:
+          </div>
+          <BulletPoint text="Ultra-low $2.25 per side commission - 36% lower than competitors!" fontSize={18} isImportant={true} />
+          <BulletPoint text="Average spreads of 0.0 on forex majors" fontSize={18} isImportant={true} />
+          <BulletPoint text="No minimum account size required" fontSize={18} />
+          <BulletPoint text="No fees on deposits (Visa, MasterCard, PayPal, Skrill & Neteller)" fontSize={18} />
+          <BulletPoint text="Lightning-fast execution speed for optimal trading performance" fontSize={18} />
+          <BulletPoint text="Regulated by ASIC, VFSC, and FSA Seychelles" fontSize={18} />
+          <BulletPoint text="250+ financial products including forex, indices, commodities, and US Share CFDs" fontSize={18} />
+          <BulletPoint text="White glove support with dedicated trading specialist" fontSize={18} />
+          <div style={{ fontSize: 20, fontWeight: 500, margin: '18px 0 8px 0' }}>
+            Perfect For:
+          </div>
+          <BulletPoint text="Cost-conscious traders who want maximum value" fontSize={18} />
+          <BulletPoint text="Scalpers and high-frequency traders" fontSize={18} />
+          <BulletPoint text="Anyone looking for transparent, low-cost trading" fontSize={18} />
+          <a 
+            href="https://fusionmarkets.com/?refcode=99007" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{ 
+              textDecoration: 'none',
+              display: 'block'
+            }}
+          >
+            <div style={{ 
+              textAlign: 'center', 
+              marginTop: 24, 
+              padding: '16px 24px', 
+              background: 'linear-gradient(135deg, #43cea2, #185a9d)', 
+              borderRadius: 12, 
+              boxShadow: '0 4px 12px rgba(67, 206, 162, 0.3)',
+              cursor: 'pointer',
+              transition: 'transform 0.2s ease, box-shadow 0.2s ease'
+            }}>
+              <div style={{ 
+                color: 'white', 
+                fontSize: 22, 
+                fontWeight: 'bold'
+              }}>
+                🚀 Start Trading with Fusion Markets
+              </div>
+              <div style={{ fontSize: 14, marginTop: 8, opacity: 0.9, color: 'white' }}>
+                Get the lowest trading costs in the industry
+              </div>
+            </div>
+          </a>
+        </BrokerSection>
       </div>
       {/* Keyframes for background and icon animation */}
       <style>{`

@@ -1,14 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-function BulletPoint({ text, isImportant = false, fontSize = 16 }) {
-  return (
-    <div style={{ display: 'flex', alignItems: 'flex-start', margin: '4px 0' }}>
-      <span style={{ fontSize: 18, marginRight: 8 }}>&bull;</span>
-      <span style={{ color: isImportant ? 'red' : '#222', fontWeight: isImportant ? 'bold' : 500, fontSize }}>{text}</span>
-    </div>
-  );
-}
-
 export default function LeverageMarginPage() {
   const [showTitle, setShowTitle] = useState(false);
   const [showMain, setShowMain] = useState(false);
