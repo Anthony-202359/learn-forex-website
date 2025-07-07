@@ -51,6 +51,7 @@ import StandardDeviationPage from './StandardDeviationPage';
 import AdxPage from './AdxPage';
 import AsideMenu from './AsideMenu';
 import EcnBrokersPage from './EcnBrokersPage';
+import DisclaimerPage from './DisclaimerPage';
 import { useState } from 'react';
 
 function HamburgerIcon({ open }) {
@@ -206,6 +207,7 @@ export default function MainApp() {
           <Route path="/stochastic-page" element={<StochasticPage />} />
           <Route path="/standard-deviation-page" element={<StandardDeviationPage />} />
           <Route path="/adx-page" element={<AdxPage />} />
+          <Route path="/disclaimer" element={<DisclaimerPage />} />
         </Routes>
       </div>
     </div>

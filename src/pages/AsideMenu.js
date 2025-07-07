@@ -270,6 +270,27 @@ export default function AsideMenu({ open, onClose, onNavigate, currentPath }) {
             </div>
           )}
         </div>
+        {/* Disclaimer link at the end */}
+        <div style={{ marginTop: 'auto', padding: '24px 0 18px 0', textAlign: 'center' }}>
+          <a
+            href="/disclaimer"
+            style={{
+              color: '#fff',
+              fontWeight: 'bold',
+              fontSize: 18,
+              letterSpacing: 0.5,
+              textDecoration: 'none',
+              background: 'rgba(25,118,210,0.13)',
+              borderRadius: 10,
+              padding: '10px 24px',
+              display: 'inline-block',
+              boxShadow: '0 2px 8px #0001',
+              transition: 'background 0.2s',
+            }}
+          >
+            Disclaimer
+          </a>
+        </div>
       </aside>
     </>
   );
